@@ -1,9 +1,10 @@
 {
   "name": "pothos-schema-exporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "Plugin to output 'schema.graphql' from pothos to file",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "test": "jest"

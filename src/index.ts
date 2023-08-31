@@ -1,5 +1,5 @@
 import SchemaBuilder, { BasePlugin, SchemaTypes } from "@pothos/core";
-import "./global-types";
+import "./global-types.js";
 import { GraphQLSchema, printSchema } from "graphql";
 import { promises as fs } from "fs";
 import path from "path";

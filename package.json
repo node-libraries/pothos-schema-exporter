@@ -1,0 +1,25 @@
+{
+  "name": "pothos-schema-exporter",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Plugin to output 'schema.graphql' from pothos to file",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "keywords": [
+    "graphql",
+    "pothos",
+    "schema.graphql"
+  ],
+  "author": "SoraKumo",
+  "devDependencies": {
+    "@pothos/core": "^3.33.1",
+    "@types/node": "^20.5.7",
+    "graphql": "^16.8.0",
+    "typescript": "^5.2.2"
+  },
+  "repository": "https://github.com/node-libraries/pothos-schema-exporter"
+}

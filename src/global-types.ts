@@ -1,5 +1,5 @@
 import { SchemaTypes } from "@pothos/core";
-import { PothosSchemaExporterPlugin } from ".";
+import { PothosSchemaExporterPlugin } from "./index.js";
 
 declare global {
   export namespace PothosSchemaTypes {

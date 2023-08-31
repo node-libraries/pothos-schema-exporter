@@ -1,12 +1,14 @@
 {
   "name": "pothos-schema-exporter",
-  "version": "0.0.2",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "description": "Plugin to output 'schema.graphql' from pothos to file",
+  "version": "0.0.3",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js"
+  },
   "type": "module",
+  "description": "Plugin to output 'schema.graphql' from pothos to file",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc --project ./tsconfig.esm.json",
     "test": "jest"
   },
   "license": "MIT",

@@ -23,15 +23,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pothos/core@^3.33.1":
-  version "3.33.1"
-  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.33.1.tgz#8988848cbc0d9ad354e313c45d34a5065b54e614"
-  integrity sha512-qKD8OxI6WqUKj53UkbBEj9BZ5TnaHP8msWtxC5xsBoSJ9ESQ5pMgPgVOr9tey0NZn/Py3UVs7hqJm8r0xYp4dA==
+"@pothos/core@^3.38.0":
+  version "3.38.0"
+  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.38.0.tgz#db064bb0c35a6507435bbef38b40f13b2898701f"
+  integrity sha512-2jlnvkrCmbrHxK269745TXxl185LwJtC5oMz4nbFP40LmVV9zbDV3WKqbG7D+3rg9hvxBe0RmmwWrOjNcGpICA==
 
-"@types/node@^20.5.9":
-  version "20.5.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.5.9.tgz#a70ec9d8fa0180a314c3ede0e20ea56ff71aed9a"
-  integrity sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==
+"@types/node@^20.7.0":
+  version "20.7.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.7.0.tgz#c03de4572f114a940bc2ca909a33ddb2b925e470"
+  integrity sha512-zI22/pJW2wUZOVyguFaUL1HABdmSVxpXrzIqkjsHmyUjNhPoWM1CKfvVuXfetHhIok4RY573cqS0mZ1SJEnoTg==
 
 aggregate-error@^4.0.0:
   version "4.0.1"
@@ -151,10 +151,10 @@ graceful-fs@^4.2.10:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql@^16.8.0:
-  version "16.8.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.0.tgz#374478b7f27b2dc6153c8f42c1b80157f79d79d4"
-  integrity sha512-0oKGaR+y3qcS5mCu1vb7KG+a89vjn06C7Ihq/dDl3jA+A8B3TKomvi3CiEcVLJQGalbu8F52LxkOym7U5sSfbg==
+graphql@^16.8.1:
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.1.tgz#1930a965bef1170603702acdb68aedd3f3cf6f07"
+  integrity sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==
 
 ignore@^5.2.4:
   version "5.2.4"
